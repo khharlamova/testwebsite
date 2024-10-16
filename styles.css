@@ -48,7 +48,6 @@ nav ul li a:hover {
     color: #E91E63;
 }
 
-
 /* Moving Bar */
 .moving-bar {
     background-color: #E91E63;
@@ -79,7 +78,6 @@ nav ul li a:hover {
         transform: translateX(-100%);
     }
 }
-
 
 /* Hero Section */
 .hero {
@@ -131,6 +129,11 @@ h2 {
     margin: 0 auto;
 }
 
+.about-details, .strategy-details {
+    text-align: center;
+    font-size: 1.2rem;
+}
+
 .highlight {
     background-color: #f8f8f8;
     padding: 80px 20px;
@@ -143,5 +146,3 @@ footer {
     text-align: center;
     padding: 20px 0;
 }
-
-
