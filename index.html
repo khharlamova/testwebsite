@@ -1,118 +1,113 @@
-/* General styling */
-body {
-    font-family: 'Helvetica Neue', Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #ffffff;
-    color: #333;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZOHO Vision Fund</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <header>
+        <nav>
+            <div class="logo">
+                <a href="#home">ZOHO Vision Fund</a>
+            </div>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#strategy">Investment Strategy</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#get-involved">Get Involved</a></li>
+            </ul>
+        </nav>
+    </header>
 
-/* Navbar */
-header {
-    background-color: white;
-    padding: 20px 40px;
-    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
-}
+    <!-- Homepage Section -->
+    <section id="home" class="hero">
+        <div class="hero-text">
+            <h1>Empowering the Future of Tech Startups with ZOHO Vision Fund</h1>
+            <p>Co-investing in early-stage tech startups with high growth potential.</p>
+            <p class="subtext">Der ZOLLHOF - Tech Incubator ist ein einzigartiger Nährboden für Unternehmertum und das Fundament des ZOHO Vision Fund I.</p>
+            <div class="cta-buttons">
+                <a href="#about" class="button">Curious to Know More?</a>
+                <a href="#strategy" class="button">Find Out More Details First</a>
+            </div>
+        </div>
+    </section>
 
-nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
+    <!-- About the Fund Section -->
+    <section id="about">
+        <div class="container">
+            <h2>About the Fund</h2>
+            <p>Der ZOHO Vision Fund I verfolgt eine renditegetriebene Strategie und ist rein privat finanziert, um unabhängig agieren zu können.</p>
+            <div class="about-details">
+                <h3>Why Choose ZOHO Vision Fund?</h3>
+                <ul>
+                    <li>Eigenes Investment Management Team</li>
+                    <li>Erfahrenes Investment Committee für Investitions- und Exit Entscheidungen</li>
+                    <li>Finanziert durch private Investor:innen</li>
+                    <li>Fokussiert auf finanzielle Rendite</li>
+                    <li>Ausrichtung auf Startups aus dem ZOHO Factory Netzwerk</li>
+                    <li>Co-Investitionen mit anderen VC Fonds und bekannten Business Angeln zur Risikominderung</li>
+                </ul>
+                <h3>Key Numbers</h3>
+                <ul>
+                    <li>€10 million target fund size</li>
+                    <li>Focus on Early-Stage Tech-Startups</li>
+                    <li>25-40 portfolio companies</li>
+                    <li>Average investment of €200,000 per startup</li>
+                </ul>
+            </div>
+        </div>
+    </section>
 
-nav .logo a {
-    text-decoration: none;
-    font-size: 1.5rem;
-    font-weight: bold;
-    color: #E91E63;
-}
+    <!-- Investment Strategy Section -->
+    <section id="strategy" class="highlight">
+        <div class="container">
+            <h2>Investment Strategy</h2>
+            <div class="strategy-details">
+                <h3>Target Startups</h3>
+                <p>Early-stage tech startups with high growth potential.</p>
+                <h3>Sectors</h3>
+                <p>Tech (SaaS, AI, DeepTech, etc.)</p>
+                <h3>Co-Investment</h3>
+                <p>Partnership with other professional investors.</p>
+                <h3>Support</h3>
+                <p>Active involvement post-investment, helping startups scale through mentoring, connections, and expertise.</p>
+                <a href="#get-involved" class="button">Submit Your Application</a>
+            </div>
+        </div>
+    </section>
 
-nav ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-}
+    <!-- Portfolio Section -->
+    <section id="portfolio">
+        <div class="container">
+            <h2>Portfolio</h2>
+            <h3>Current Startups</h3>
+            <p>Details of the startups currently in our portfolio.</p>
+            <h3>Portfolio Highlights</h3>
+            <p>Key achievements from portfolio startups.</p>
+            <h3>Testimonials</h3>
+            <p>What our startups and partners say about us.</p>
+        </div>
+    </section>
 
-nav ul li {
-    margin-left: 20px;
-}
+    <!-- Get Involved Section -->
+    <section id="get-involved" class="highlight">
+        <div class="container">
+            <h2>Get Involved</h2>
+            <h3>Application Process</h3>
+            <p>How to apply, timeline, criteria/requirements.</p>
+            <h3>The Team</h3>
+            <p>Meet the investment team and find contact information.</p>
+            <h3>FAQs</h3>
+            <p>Answers to common questions about our investment strategy.</p>
+        </div>
+    </section>
 
-nav ul li a {
-    text-decoration: none;
-    color: #333;
-    font-weight: bold;
-}
-
-nav ul li a:hover {
-    color: #E91E63;
-}
-
-/* Hero Section */
-.hero {
-    background-color: #f8f8f8;
-    text-align: center;
-    padding: 100px 20px;
-}
-
-.hero-text h1 {
-    font-size: 3rem;
-    margin-bottom: 10px;
-    color: #333;
-}
-
-.hero-text p {
-    font-size: 1.2rem;
-    margin-bottom: 20px;
-    color: #666;
-}
-
-.cta-buttons .button {
-    background-color: #E91E63;
-    color: white;
-    padding: 15px 30px;
-    text-decoration: none;
-    border-radius: 5px;
-    margin: 10px;
-    font-weight: bold;
-    display: inline-block;
-}
-
-.cta-buttons .button:hover {
-    background-color: #d81b60;
-}
-
-/* Section Styling */
-section {
-    padding: 60px 20px;
-}
-
-h2 {
-    text-align: center;
-    font-size: 2.5rem;
-    margin-bottom: 40px;
-}
-
-.container {
-    max-width: 1200px;
-    margin: 0 auto;
-}
-
-.about-details, .strategy-details {
-    text-align: center;
-    font-size: 1.2rem;
-}
-
-.highlight {
-    background-color: #f8f8f8;
-    padding: 80px 20px;
-}
-
-/* Footer */
-footer {
-    background-color: #333;
-    color: white;
-    text-align: center;
-    padding: 20px 0;
-}
-
+    <!-- Footer -->
+    <footer>
+        <p>© 2024 ZOHO Vision Fund. All rights reserved.</p>
+    </footer>
+</body>
+</html>
