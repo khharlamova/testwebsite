@@ -65,6 +65,13 @@ nav ul li a:hover {
     padding-left: 100%;
 }
 
+.moving-text {
+    position: absolute;
+    white-space: nowrap;
+    will-change: transform;
+    animation: scrollText 20s linear infinite; /* Current duration is 20 seconds */
+}
+
 @keyframes scrollText {
     from {
         transform: translateX(100%);
