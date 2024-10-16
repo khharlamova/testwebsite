@@ -60,7 +60,7 @@ nav ul li a:hover {
 
 .moving-bar p {
     display: inline-block;
-    animation: scrollText 30s linear infinite;
+    animation: scrollText 20s linear infinite;
     font-size: 1.2rem;
     padding-left: 100%;
 }
